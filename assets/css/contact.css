@@ -5,6 +5,7 @@
     height: 100%;
     position: absolute;
     margin: auto;
+    padding-bottom: 25px;
 }
 
 .wrapper {
@@ -96,8 +97,19 @@ form {
 
 input{
     width: 100%;
+    font-size: 14px;
+}
+#name {
+    height: 25px;
 }
 
+#email {
+    height: 25px;
+}
+
+#message {
+    height: 150px;
+}
 
 .button {
     background-color: #4aaaa5;
@@ -117,7 +129,5 @@ footer {
     height: 30px;
     border-top: 10px solid #4aaaa5;
     margin-top: 30px;
-    padding-top: 10px;
     position: relative;
-    top: 75px;
 }
